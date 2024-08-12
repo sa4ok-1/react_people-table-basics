@@ -3,6 +3,7 @@ import { NavLink, Routes, Route, Navigate } from 'react-router-dom';
 import './App.scss';
 import { PersonList } from './components/PersonList';
 import classNames from 'classnames';
+import React from 'react';
 
 export const App = () => (
   <div data-cy="app">

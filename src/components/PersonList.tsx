@@ -1,9 +1,10 @@
 import { useEffect, useState } from 'react';
-import { Loader } from './Loader';
+import { Loader } from './Loader/Loader';
 import { Person } from '../types';
 import { getPeople } from '../api';
 import classNames from 'classnames';
 import { NavLink, useParams } from 'react-router-dom';
+import React from 'react';
 
 export const PersonList = () => {
   const [peopleFromApi, setPeopleFromApi] = useState<Person[]>([]);
